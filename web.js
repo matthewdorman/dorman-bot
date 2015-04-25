@@ -9,7 +9,9 @@ var addon = app.addon()
 
 addon.webhook('room_message', /@[Dd]orman/, function *() {
   var phrases = [
-    "I left the company to pursue my dreams. If you need to reach me, I'll be sitting on my couch watching TV.",
+    "I left the company to pursue my dreams. If you need to reach me, I'll be sitting on my couch drinking whiskey and yelling at my TV.",
+    "Let me google that for you.",
+    "WordWhat?",
     "I love Druuuu-pall!"
   ];
 
