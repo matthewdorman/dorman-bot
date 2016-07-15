@@ -9,7 +9,7 @@ var addon = app.addon()
 
 addon.webhook('room_message', /@[Dd]orman/, function *() {
   var phrases = [
-    "Poor Prontos, meet me at their steps for a memorial on 7/20/2016 at 5:00 PM Eastern sharp.",
+    "Poor Prontos, meet me at their steps for a memorial on 7/20/2016 at 5:00 PM Eastern sharp. Then we go to O'Lunneys.",
     "I left the company to pursue my dreams. If you need to reach me, I'll be sitting on my couch drinking whiskey and yelling at my TV.",
     "Let me google that for you.",
     "WordWhat?",
